@@ -1,9 +1,11 @@
 public class loop {
     public static void main(String[] args) {
-        int count = 0;
-        while (count < 100) {
-            System.out.println("hello world");
-            count++;
+       for(int line=1; line<=5; line++){
+        for(int star = 1; star <= line; star++){
+            System.out.print("*");
         }
+        System.out.println();
+       }
+        
     }
 }
